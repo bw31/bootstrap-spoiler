@@ -6,6 +6,7 @@ Bootstrap spoiler
 - задать в contentCss: [CKEDITOR.basePath +"contents.css", "' . $bootstrapUrl . '"],
 где $bootstrapUrl путь до bootstrap.css;
 - добавить jquery.js, bootstrap.js в head редактора, например:
+
 ```js
 CKEDITOR.on('instanceReady', function() {
                 var sru = new CKEDITOR.dom.element('script'),
